@@ -1,9 +1,9 @@
 @import "tailwindcss";
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
-/* Body styling */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

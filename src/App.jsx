@@ -39,11 +39,12 @@ const App = () => {
    ];
 
   return (
-    <div>
-
-  <Section1 users={users}/>
-  <Section2/>
-
+    <div className="relative">
+      <Navbar />
+      <div className="pt-28">
+        <Section1 users={users}/>
+        <Section2/>
+      </div>
     </div>
   )
 }
